@@ -14,7 +14,7 @@ computes its largest-magnitude eigenvector, and uses its component signs to orie
 
 ```bash
 python -m pip install -r requirements.txt
-python SPAM.py examples/directors.txt --cutoff 4.5 --output output/spam.txt
+python SPAM.py path/to/director_field.txt --cutoff 4.5 --output output/spam.txt
 ```
 
 Input is a whitespace-delimited `x y z nx ny nz` table. Output adds the SPAM `flag`.
@@ -32,7 +32,8 @@ This reads the LAMMPS dump, converts quaternion orientations, runs SPAM, constru
 
 - `examples/Plushalf` — planar +1/2 defect.
 - `examples/Comet` — three-dimensional comet configuration.
-- `examples/directors.txt` — compact standalone smoke-test input.
+- `examples/Exclusion` — three-dimensional exclusion configuration.
+- `examples/Wedge` — three-dimensional wedge configuration.
 
 The LAMMPS examples come from Nematics. For the complete GUI workflow and all defect examples, see [OVITO Nematics](https://github.com/Sapta98/Nematics).
 
