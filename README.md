@@ -1,4 +1,4 @@
-# SPAM — Spectral Assignment of Mesogens
+# SPAM — Spectral Alignment of Mesogens
 
 SPAM resolves the head–tail ambiguity of a nematic director field through a global spectral relaxation. This repository contains the current standalone implementation and a reproducible [OVITO Nematics](https://github.com/Sapta98/Nematics) pipeline.
 
